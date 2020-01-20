@@ -1,0 +1,24 @@
+{
+  "name": "todolist-api",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Fernando Berti <bertilxi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest",
+    "knex": "node -r esm -r ts-node/register/transpile-only ./node_modules/.bin/knex --knexfile ./knexfile.ts"
+  },
+  "dependencies": {
+    "fastify": "^2.11.0",
+    "fastify-cors": "^3.0.1",
+    "knex": "^0.20.8",
+    "objection": "^2.1.2",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2"
+  }
+}
